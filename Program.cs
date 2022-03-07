@@ -1,0 +1,52 @@
+﻿using System;
+
+namespace SecondLessonProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //integral numeric types
+            int var1 = 282;
+            int var2;
+            var2 = 356; //int.Parse(Console.ReadLine());
+            int sum = var1 + var2;
+            Console.WriteLine(sum);
+
+           
+            //floating point numbers
+            float var3 = 600.120F;
+            double var4 = 40000.99;
+            double sum2 = var3 + var4;
+            Console.WriteLine(sum2);
+
+
+            //boolean types
+            bool var5 = (6 > 8) || (7 > 5);  
+            //var var5=(6 > 5) && (7 > 5);
+            Console.WriteLine(var5);
+
+
+            // char type
+            char var6 = 'X';
+            char var7 = 'B';
+            var concat = var6.ToString() + var7.ToString();   
+            //var concat = var6 + var7;  //In this case code return int value(154)!!!
+            Console.WriteLine(concat);
+
+            var var8 = char.IsLetter(var6);
+            var var9 = char.IsNumber(var7);
+            Console.WriteLine(var8);
+            Console.WriteLine(var9);
+
+
+            // string
+            string var10 = " BBA040 Khayala Bayramzadeh ";
+            var var11 = var10.ToUpper();
+            Console.WriteLine(var11);
+
+            
+            
+        }
+    }
+}
