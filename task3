@@ -150,7 +150,7 @@ namespace task3
 
 
 
-        static void Main(string[] args) //task6        //VERY DIFFICULT
+        static void Main6(string[] args) //task6        //VERY DIFFICULT
         {
             int day, month, year;
             Console.Write("Input the Day: ");
